@@ -20,7 +20,7 @@
 
 }
 
-.hamburger_btn:hover{
+.hamburger_btn:hover {
     background-color: aquamarine;
 }
 
@@ -45,7 +45,8 @@
     font-size: 20px;
     padding-left: 20px;
 }
-.search_btn{
+
+.search_btn {
     border: 10px black;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -55,7 +56,7 @@
     margin-top: 5px;
 }
 
-.search_btn:hover{
+.search_btn:hover {
     background-color: aquamarine;
 }
 
@@ -81,16 +82,16 @@
     cursor: pointer;
 }
 
-.voice_search_btn:hover{
+.voice_search_btn:hover {
     background-color: aquamarine;
 }
 
-.youtube_create_icon{
-    width:30px;
+.youtube_create_icon {
+    width: 30px;
     height: 30px;
 }
 
-.youtube_create_btn{
+.youtube_create_btn {
     border: 10px black;
     border-radius: 30px;
     background-color: white;
@@ -100,16 +101,16 @@
     margin-left: 350px;
 }
 
-.youtube_create_btn:hover{
+.youtube_create_btn:hover {
     background-color: aquamarine;
 }
 
-.youtube_notifications_icon{
-    width:30px;
+.youtube_notifications_icon {
+    width: 30px;
     height: 30px;
 }
 
-.youtube_notifications_btn{
+.youtube_notifications_btn {
     border: 10px black;
     border-radius: 30px;
     background-color: white;
@@ -118,16 +119,16 @@
     cursor: pointer;
 }
 
-.youtube_notifications_btn:hover{
+.youtube_notifications_btn:hover {
     background-color: aquamarine;
 }
 
-.youtube_profile_icon{
-    width:50px;
+.youtube_profile_icon {
+    width: 50px;
     height: 50px;
 }
 
-.youtube_profile_btn{
+.youtube_profile_btn {
     border: 10px black;
     border-radius: 30px;
     background-color: white;
@@ -141,12 +142,12 @@
     margin-left: 20px;
 }
 
-.body{
+.body {
     margin-top: 30px;
     display: flex;
 }
 
-.video_player{
+.video_player {
     height: 700px;
     width: 1200px;
     background-color: black;
@@ -154,77 +155,78 @@
     border-radius: 10px;
 }
 
-.video_actions{
+.video_actions {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.recommendations{
-    display:flex;
+.recommendations {
+    display: flex;
     flex-direction: column;
     margin-left: 60px;
 }
 
-.recommendation_card{
+.recommendation_card {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
 }
 
-.recommendation_text{
-    margin-left:20px;
+.recommendation_text {
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.channel_icon{
+.channel_icon {
     width: 50px;
     height: 50px;
     margin-right: 15px;
 }
 
-.channel_desc{
+.channel_desc {
     display: flex;
 }
 
-.channel_desc_text{
+.channel_desc_text {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
 }
 
-.channel_name{
-    font-size:large;
+.channel_name {
+    font-size: large;
     font-weight: bold;
 }
 
-.channel_subscribers{
+.channel_subscribers {
     font-size: medium;
 }
 
-.subscribe_btn{
+.subscribe_btn {
     border: 10px black;
     border-radius: 20px;
     width: 150px;
     height: 50px;
-    cursor: pointer;   
+    cursor: pointer;
     background-color: black;
     color: white;
     font-weight: bold;
     font-size: large;
     margin-left: 5px;
 }
-.subscribe_btn:hover{
+
+.subscribe_btn:hover {
     background-color: rgb(69, 57, 57);
 }
 
-.video_buttons{
+.video_buttons {
     margin-left: auto;
     display: flex;
 }
 
-.video_button{
+.video_button {
     margin-left: 10px;
     width: 120px;
     height: 40px;
@@ -236,42 +238,42 @@
     /* background-color: lightblue; */
 }
 
-.video_button:hover{
+.video_button:hover {
     background-color: aquamarine;
 }
 
-.video_description{
+.video_description {
     margin-top: 40px;
     margin-left: 30px;
 }
 
-.views_date{
+.views_date {
     display: flex;
     font-size: large;
     font-weight: bold;
 }
 
-.views{
+.views {
     margin-right: 10px;
 
 }
 
-.video_container{
+.video_container {
     width: 1200px;
     height: 700px;
 }
 
-.desc{
+.desc {
     font-size: medium;
 }
 
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 
 }
 
-.channel_info{
+.channel_info {
     display: flex;
 }
