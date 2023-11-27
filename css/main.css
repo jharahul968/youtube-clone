@@ -16,6 +16,7 @@
     cursor: pointer;
     background-color: white;
     margin-top: 10px;
+    margin-left: 15px;
 
 }
 
@@ -30,7 +31,9 @@
 }
 
 .search_bar {
-    margin-left: 150px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .search_bar_input {
@@ -94,7 +97,7 @@
     width: 60px;
     height: 60px;
     cursor: pointer;
-    margin-left: 300px;
+    margin-left: 350px;
 }
 
 .youtube_create_btn:hover{
@@ -131,7 +134,7 @@
     width: 60px;
     height: 60px;
     cursor: pointer;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .voice_search_btn {
@@ -153,6 +156,8 @@
 
 .video_actions{
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .recommendations{
@@ -265,4 +270,8 @@ a{
     color: inherit;
     text-decoration: none;
 
+}
+
+.channel_info{
+    display: flex;
 }
