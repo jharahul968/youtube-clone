@@ -2,7 +2,6 @@
     display: flex;
 }
 
-
 .hamburger_logo {
     height: 30px;
     width: 30px;
@@ -17,7 +16,6 @@
     background-color: white;
     margin-top: 10px;
     margin-left: 15px;
-
 }
 
 .hamburger_btn:hover {
@@ -142,17 +140,13 @@
     margin-left: 20px;
 }
 
-.body {
+section {
     margin-top: 30px;
     display: flex;
 }
 
 .video_player {
-    height: 700px;
-    width: 1200px;
-    background-color: black;
     margin-left: 20px;
-    border-radius: 10px;
 }
 
 .video_actions {
@@ -206,7 +200,7 @@
 
 .subscribe_btn {
     border: 10px black;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 150px;
     height: 50px;
     cursor: pointer;
@@ -254,7 +248,6 @@
 
 .views {
     margin-right: 10px;
-
 }
 
 .video_container {
@@ -266,11 +259,9 @@
     font-size: medium;
 }
 
-
 a {
     color: inherit;
     text-decoration: none;
-
 }
 
 .channel_info {
