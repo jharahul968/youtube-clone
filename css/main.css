@@ -1,6 +1,5 @@
 /* * {margin:0;padding:0;} */
 
-
 #header {
     display: flex;
 }
@@ -151,12 +150,9 @@
 .video_player {
     margin-left: 20px;
 
-
     width: 1200px;
     height: 700px;
     background-color: blanchedalmond;
-
-
 }
 
 .video_actions {
@@ -199,7 +195,20 @@
     margin-right: 10px;
 }
 
-.channel_name {
+.channel_profile_btn {
+    border: white;
+    cursor: pointer;
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+}
+
+.channel_profile_name_btn {
+    border: white;
+    background-color: white;
+    cursor: pointer;
+    padding: 0px;
+    border: 0px;
     font-size: large;
     font-weight: bold;
 }
@@ -246,12 +255,13 @@
     background-color: aquamarine;
 }
 
-.like_btn{
+.like_btn {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin-right: -15px;
 }
-.dislike_btn{
+
+.dislike_btn {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
@@ -263,7 +273,6 @@
     cursor: pointer;
     border-radius: 25px;
     padding: 15px;
-
 }
 
 .video_description:hover {
@@ -407,7 +416,6 @@ a {
 .comment_actions {
     margin-left: 40px;
 }
-
 
 .comment_button {
     border: 10px black;
