@@ -232,17 +232,28 @@
 
 .video_button {
     margin-left: 10px;
-    width: 120px;
-    height: 40px;
+    /* width: 120px;
+    height: 40px; */
     cursor: pointer;
     border: 0px white;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: bold;
     font-size: large;
+    padding: 10px 20px 10px 20px;
 }
 
 .video_button:hover {
     background-color: aquamarine;
+}
+
+.like_btn{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -15px;
+}
+.dislike_btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .video_description {
