@@ -47,6 +47,7 @@
     border-bottom-left-radius: 25px;
     font-size: 20px;
     padding-left: 20px;
+    margin-right: -2px;
 }
 
 .search_btn {
@@ -57,6 +58,7 @@
     height: 55px;
     cursor: pointer;
     margin-top: 5px;
+    margin-left: -2px;
 }
 
 .search_btn:hover {
@@ -65,6 +67,10 @@
 
 .search_bar_input::placeholder {
     font-size: large;
+}
+
+input::-webkit-calendar-picker-indicator {
+    opacity: 0;
 }
 
 .search_icon {
@@ -235,7 +241,7 @@
     margin-left: 5px;
 }
 
-.video_title{
+.video_title {
     font-weight: bold;
     font-size: 23px;
 }

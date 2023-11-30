@@ -1,505 +1,616 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jacob and the Stone - Youtube</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/youtube-fav.png"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Jacob and the Stone - Youtube</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="icon" type="image/x-icon" href="/assets/images/youtube-fav.png" />
-</head>
+  <body>
+    <header id="header" class="navbar">
+      <div class="header_element">
+        <button class="hamburger_btn">
+          <img
+            src="assets/images/hamburger.png"
+            alt="hamburger-icon"
+            class="hamburger_logo"
+          />
+        </button>
+      </div>
 
-<body>
-  <header id="header" class="navbar">
-    <div class="header_element">
-      <button class="hamburger_btn">
-        <img src="assets/images/hamburger.png" alt="hamburger-icon" class="hamburger_logo" />
-      </button>
-    </div>
+      <div class="header_element">
+        <a href="#">
+          <img
+            src="assets/images/youtube-logo.png"
+            alt="youtube-logo"
+            class="youtube_logo"
+          />
+        </a>
+      </div>
 
-    <div class="header_element">
-      <a href="#">
-        <img src="assets/images/youtube-logo.png" alt="youtube-logo" class="youtube_logo" />
-      </a>
-    </div>
+      <div class="header_element search_bar">
+        <input
+          type="text"
+          placeholder="Search"
+          class="search_bar_input"
+          list="history"
+        />
+        <datalist id="history">
+          <option>History 1</option>
+          <option>History 2</option>
+          <option>History 3</option>
+          <option>History 4</option>
+          <option>History 5</option></datalist
+        ><button type="submit" class="btn search_btn" title="search">
+          <img
+            src="assets/images/search-icon.png"
+            class="search_icon"
+            alt="search"
+          />
+        </button>
+        <button class="btn voice_search_btn" title="Search with your voice">
+          <img
+            src="assets/images/voice-search-icon.png"
+            alt="voice-search"
+            class="voice_search_icon"
+          />
+        </button>
+      </div>
 
-    <div class="header_element search_bar">
-      <input type="text" placeholder="Search" class="search_bar_input" /><button type="submit" class="btn search_btn"
-        title="search">
-        <img src="assets/images/search-icon.png" class="search_icon" alt="search" />
-      </button>
-      <button class="btn voice_search_btn" title="Search with your voice">
-        <img src="assets/images/voice-search-icon.png" alt="voice-search" class="voice_search_icon" />
-      </button>
-    </div>
+      <div class="header_element youtube_create">
+        <button class="youtube_create_btn" title="Create">
+          <img
+            src="assets/images/youtube-create.png"
+            alt="create"
+            class="youtube_create_icon"
+          />
+        </button>
+      </div>
 
-    <div class="header_element youtube_create">
-      <button class="youtube_create_btn" title="Create">
-        <img src="assets/images/youtube-create.png" alt="create" class="youtube_create_icon" />
-      </button>
-    </div>
+      <div class="header_element youtube_notifications" title="Notifications">
+        <button class="youtube_notifications_btn">
+          <img
+            src="assets/images/youtube-bell.png"
+            alt="notification"
+            class="youtube_notifications_icon"
+          />
+        </button>
+      </div>
 
-    <div class="header_element youtube_notifications" title="Notifications">
-      <button class="youtube_notifications_btn">
-        <img src="assets/images/youtube-bell.png" alt="notification" class="youtube_notifications_icon" />
-      </button>
-    </div>
+      <div class="header_element youtube_profile">
+        <button class="youtube_profile_btn">
+          <img
+            src="assets/images/profile-icon.png"
+            alt="notification"
+            class="youtube_profile_icon"
+          />
+        </button>
+      </div>
+    </header>
 
-    <div class="header_element youtube_profile">
-      <button class="youtube_profile_btn">
-        <img src="assets/images/profile-icon.png" alt="notification" class="youtube_profile_icon" />
-      </button>
-    </div>
-  </header>
-
-  <section class="video_body">
-    <div class="video_container">
-      <div class="video_player">
-        <!-- <iframe width="1200" height="700" src="https://www.youtube.com/embed/PK35ulIX5P4" title="Jacob and the Stone"
+    <section class="video_body">
+      <div class="video_container">
+        <div class="video_player">
+          <!-- <iframe width="1200" height="700" src="https://www.youtube.com/embed/PK35ulIX5P4" title="Jacob and the Stone"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe> -->
-      </div>
-
-      <div class="video_actions">
-        <div class="video_title">
-          <p>Jacob and the Stone</p>
         </div>
-        <div class="video_information">
-          <div class="channel_desc">
-            <div class="channel_info">
-              <button class="channel_profile_btn">
-                <img src="assets/images/profile-icon.png" class="channel_icon" alt="profile" />
-              </button>
-              <div class="channel_desc_text">
-                <div class="channel_name">
-                  <button class="channel_profile_name_btn" title="Channel Name">
-                    Emile Mosseri
+
+        <div class="video_actions">
+          <div class="video_title">
+            <p>Jacob and the Stone</p>
+          </div>
+          <div class="video_information">
+            <div class="channel_desc">
+              <div class="channel_info">
+                <button class="channel_profile_btn">
+                  <img
+                    src="assets/images/profile-icon.png"
+                    class="channel_icon"
+                    alt="profile"
+                  />
+                </button>
+                <div class="channel_desc_text">
+                  <div class="channel_name">
+                    <button
+                      class="channel_profile_name_btn"
+                      title="Channel Name"
+                    >
+                      Emile Mosseri
+                    </button>
+                  </div>
+                  <div class="channel_subscribers">4.89k subscribers</div>
+                </div>
+              </div>
+              <button class="btn subscribe_btn">Subscribe</button>
+              <div class="video_buttons">
+                <div>
+                  <button class="video_button like_btn" title="I like this">
+                    <img
+                      src="assets/images/video-buttons/like.svg"
+                      alt="like"
+                    />
+                    <span>34K</span>
+                  </button>
+                  <button
+                    class="video_button dislike_btn"
+                    title="I dislike this"
+                  >
+                    <img
+                      src="assets/images/video-buttons/dislike.svg"
+                      alt="dislike"
+                    />
                   </button>
                 </div>
-                <div class="channel_subscribers">4.89k subscribers</div>
+
+                <div>
+                  <button class="video_button share_btn" title="Share">
+                    <img
+                      src="assets/images/video-buttons/share.svg"
+                      alt="share"
+                    />
+                    <span>Share</span>
+                  </button>
+                </div>
+
+                <div>
+                  <button class="video_button download_btn" title="Download">
+                    <img
+                      src="assets/images/video-buttons/download.svg"
+                      alt="download"
+                    />
+                    <span>Download</span>
+                  </button>
+                </div>
+
+                <div>
+                  <button class="video_button save_btn" title="Save">
+                    <img
+                      src="assets/images/video-buttons/save.svg"
+                      alt="save"
+                    />
+                    <span>Save</span>
+                  </button>
+                </div>
+
+                <div>
+                  <button class="video_button more_btn">
+                    <span>...</span>
+                  </button>
+                </div>
               </div>
             </div>
-            <button class="btn subscribe_btn">Subscribe</button>
-            <div class="video_buttons">
-              <div>
-                <button class="video_button like_btn" title="I like this">
-                  <img src="assets/images/video-buttons/like.svg" alt="like" />
-                  <span>34K</span>
-                </button>
-                <button class="video_button dislike_btn" title="I dislike this">
-                  <img src="assets/images/video-buttons/dislike.svg" alt="dislike" />
-                </button>
+            <div class="video_description">
+              <div class="views_date">
+                <div class="views">1,499,157 views</div>
+                <div class="date">Feb 11, 2021</div>
               </div>
 
-              <div>
-                <button class="video_button share_btn" title="Share">
-                  <img src="assets/images/video-buttons/share.svg" alt="share" />
-                  <span>Share</span>
-                </button>
+              <div class="desc">
+                <p>
+                  Provided to YouTube by Masterworks <br />
+                  <br />
+
+                  Jacob and the Stone Emile Mosseri <br />
+                  <br />
+
+                  Minari (Original Motion Picture Soundtrack) <br />
+                  <br />
+
+                  ℗ 2021 A24 Films, under exclusive license to Sony Music
+                  Entertainment <br />
+                  <br />
+
+                  Released on: 2021-02-12 <br />
+                  <br />
+
+                  Producer: Catherine Joy <br />
+                  <br />
+                  Mixing Engineer: Frank Wolf <br />
+                  <br />
+
+                  Auto-generated by YouTube.
+                </p>
               </div>
-
-              <div>
-                <button class="video_button download_btn" title="Download">
-                  <img src="assets/images/video-buttons/download.svg" alt="download" />
-                  <span>Download</span>
-                </button>
-              </div>
-
-              <div>
-                <button class="video_button save_btn" title="Save">
-                  <img src="assets/images/video-buttons/save.svg" alt="save" />
-                  <span>Save</span>
-                </button>
-              </div>
-
-              <div>
-                <button class="video_button more_btn">
-                  <span>...</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="video_description">
-            <div class="views_date">
-              <div class="views">1,499,157 views</div>
-              <div class="date">Feb 11, 2021</div>
-            </div>
-
-            <div class="desc">
-              <p>
-                Provided to YouTube by Masterworks <br />
-                <br />
-
-                Jacob and the Stone Emile Mosseri <br />
-                <br />
-
-                Minari (Original Motion Picture Soundtrack) <br />
-                <br />
-
-                ℗ 2021 A24 Films, under exclusive license to Sony Music
-                Entertainment <br />
-                <br />
-
-                Released on: 2021-02-12 <br />
-                <br />
-
-                Producer: Catherine Joy <br />
-                <br />
-                Mixing Engineer: Frank Wolf <br />
-                <br />
-
-                Auto-generated by YouTube.
-              </p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="comments">
-        <div class="comments_header">
-          <p>
-            415 Comments
-            <button title="Sort Comments">
-              <img src="assets/images/sortby.png" alt="sort-by" />
+        <div class="comments">
+          <div class="comments_header">
+            <p>
+              415 Comments
+              <button title="Sort Comments">
+                <img src="assets/images/sortby.png" alt="sort-by" />
 
-              Sort by
-            </button>
-          </p>
-        </div>
-
-        <div class="make_comment">
-          <img src="assets/images/profile-icon.png" alt="profile" />
-          <div class="make_comment--actions">
-            <input placeholder="Add a comment..." />
-            <div class="make_comment--actions_button">
-              <button class="make_comment_action_emoji">
-                <img src="assets/images/video-buttons/emoji.svg" alt="emoji" />
+                Sort by
               </button>
-              <button class="make_comment_action_btn">Comment</button>
-              <button class="make_comment_action_btn">Cancel</button>
-            </div>
+            </p>
           </div>
-        </div>
 
-        <div class="comments_body">
-          <div>
-            <div class="comments_body--comment">
-              <img src="assets/images/profile-icon.png" alt="commenter" />
-              <p class="comments_body--commenter"><b>@commenter</b></p>
-              <p>time of comment</p>
-            </div>
-            <div class="comment">
-              <p>This is the comment made.</p>
-            </div>
-
-            <div class="comment_actions_wrapper">
-              <div class="comment_actions">
-                <button class="comment_button like_comment">
-                  <img src="assets/images/video-buttons/like.svg" />
+          <div class="make_comment">
+            <img src="assets/images/profile-icon.png" alt="profile" />
+            <div class="make_comment--actions">
+              <input placeholder="Add a comment..." />
+              <div class="make_comment--actions_button">
+                <button class="make_comment_action_emoji">
+                  <img
+                    src="assets/images/video-buttons/emoji.svg"
+                    alt="emoji"
+                  />
                 </button>
-                <p>Likes count</p>
-                <button class="comment_button dislike_comment">
-                  <img src="assets/images/video-buttons/dislike.svg" />
-                </button>
-                <button class="comment_button reply_comment">
-                  <b>Reply</b>
-                </button>
-              </div>
-              <div>
-                <button class="see_reply_button">
-                  <img src="assets/images/video-buttons/down.svg" alt="down" />
-                  15 replies
-                </button>
+                <button class="make_comment_action_btn">Comment</button>
+                <button class="make_comment_action_btn">Cancel</button>
               </div>
             </div>
           </div>
 
-          <div>
-            <div class="comments_body--comment">
-              <img src="assets/images/profile-icon.png" alt="commenter" />
-              <p class="comments_body--commenter"><b>@commenter</b></p>
-              <p>time of comment</p>
-            </div>
-            <div class="comment">
-              <p>This is the comment made.</p>
-            </div>
-
-            <div class="comment_actions_wrapper">
-              <div class="comment_actions">
-                <button class="comment_button like_comment">
-                  <img src="assets/images/video-buttons/like.svg" />
-                </button>
-                <p>Likes count</p>
-                <button class="comment_button dislike_comment">
-                  <img src="assets/images/video-buttons/dislike.svg" />
-                </button>
-                <button class="comment_button reply_comment">
-                  <b>Reply</b>
-                </button>
+          <div class="comments_body">
+            <div>
+              <div class="comments_body--comment">
+                <img src="assets/images/profile-icon.png" alt="commenter" />
+                <p class="comments_body--commenter"><b>@commenter</b></p>
+                <p>time of comment</p>
               </div>
-              <div>
-                <button class="see_reply_button">
-                  <img src="assets/images/video-buttons/down.svg" alt="down" />
-                  15 replies
-                </button>
+              <div class="comment">
+                <p>This is the comment made.</p>
               </div>
-            </div>
-          </div>
 
-          <div>
-            <div class="comments_body--comment">
-              <img src="assets/images/profile-icon.png" alt="commenter" />
-              <p class="comments_body--commenter"><b>@commenter</b></p>
-              <p>time of comment</p>
-            </div>
-            <div class="comment">
-              <p>This is the comment made.</p>
-            </div>
-
-            <div class="comment_actions_wrapper">
-              <div class="comment_actions">
-                <button class="comment_button like_comment">
-                  <img src="assets/images/video-buttons/like.svg" />
-                </button>
-                <p>Likes count</p>
-                <button class="comment_button dislike_comment">
-                  <img src="assets/images/video-buttons/dislike.svg" />
-                </button>
-                <button class="comment_button reply_comment">
-                  <b>Reply</b>
-                </button>
-              </div>
-              <div>
-                <button class="see_reply_button">
-                  <img src="assets/images/video-buttons/down.svg" alt="down" />
-                  15 replies
-                </button>
+              <div class="comment_actions_wrapper">
+                <div class="comment_actions">
+                  <button class="comment_button like_comment">
+                    <img src="assets/images/video-buttons/like.svg" />
+                  </button>
+                  <p>Likes count</p>
+                  <button class="comment_button dislike_comment">
+                    <img src="assets/images/video-buttons/dislike.svg" />
+                  </button>
+                  <button class="comment_button reply_comment">
+                    <b>Reply</b>
+                  </button>
+                </div>
+                <div>
+                  <button class="see_reply_button">
+                    <img
+                      src="assets/images/video-buttons/down.svg"
+                      alt="down"
+                    />
+                    15 replies
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div class="comments_body--comment">
-              <img src="assets/images/profile-icon.png" alt="commenter" />
-              <p class="comments_body--commenter"><b>@commenter</b></p>
-              <p>time of comment</p>
-            </div>
-            <div class="comment">
-              <p>This is the comment made.</p>
-            </div>
-
-            <div class="comment_actions_wrapper">
-              <div class="comment_actions">
-                <button class="comment_button like_comment">
-                  <img src="assets/images/video-buttons/like.svg" />
-                </button>
-                <p>Likes count</p>
-                <button class="comment_button dislike_comment">
-                  <img src="assets/images/video-buttons/dislike.svg" />
-                </button>
-                <button class="comment_button reply_comment">
-                  <b>Reply</b>
-                </button>
+            <div>
+              <div class="comments_body--comment">
+                <img src="assets/images/profile-icon.png" alt="commenter" />
+                <p class="comments_body--commenter"><b>@commenter</b></p>
+                <p>time of comment</p>
               </div>
-              <div>
-                <button class="see_reply_button">
-                  <img src="assets/images/video-buttons/down.svg" alt="down" />
-                  15 replies
-                </button>
+              <div class="comment">
+                <p>This is the comment made.</p>
               </div>
-            </div>
-          </div>
 
-          <div>
-            <div class="comments_body--comment">
-              <img src="assets/images/profile-icon.png" alt="commenter" />
-              <p class="comments_body--commenter"><b>@commenter</b></p>
-              <p>time of comment</p>
-            </div>
-            <div class="comment">
-              <p>This is the comment made.</p>
-            </div>
-
-            <div class="comment_actions_wrapper">
-              <div class="comment_actions">
-                <button class="comment_button like_comment">
-                  <img src="assets/images/video-buttons/like.svg" />
-                </button>
-                <p>Likes count</p>
-                <button class="comment_button dislike_comment">
-                  <img src="assets/images/video-buttons/dislike.svg" />
-                </button>
-                <button class="comment_button reply_comment">
-                  <b>Reply</b>
-                </button>
-              </div>
-              <div>
-                <button class="see_reply_button">
-                  <img src="assets/images/video-buttons/down.svg" alt="down" />
-                  15 replies
-                </button>
+              <div class="comment_actions_wrapper">
+                <div class="comment_actions">
+                  <button class="comment_button like_comment">
+                    <img src="assets/images/video-buttons/like.svg" />
+                  </button>
+                  <p>Likes count</p>
+                  <button class="comment_button dislike_comment">
+                    <img src="assets/images/video-buttons/dislike.svg" />
+                  </button>
+                  <button class="comment_button reply_comment">
+                    <b>Reply</b>
+                  </button>
+                </div>
+                <div>
+                  <button class="see_reply_button">
+                    <img
+                      src="assets/images/video-buttons/down.svg"
+                      alt="down"
+                    />
+                    15 replies
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div class="comments_body--comment">
-              <img src="assets/images/profile-icon.png" alt="commenter" />
-              <p class="comments_body--commenter"><b>@commenter</b></p>
-              <p>time of comment</p>
-            </div>
-            <div class="comment">
-              <p>This is the comment made.</p>
-            </div>
-
-            <div class="comment_actions_wrapper">
-              <div class="comment_actions">
-                <button class="comment_button like_comment">
-                  <img src="assets/images/video-buttons/like.svg" />
-                </button>
-                <p>Likes count</p>
-                <button class="comment_button dislike_comment">
-                  <img src="assets/images/video-buttons/dislike.svg" />
-                </button>
-                <button class="comment_button reply_comment">
-                  <b>Reply</b>
-                </button>
+            <div>
+              <div class="comments_body--comment">
+                <img src="assets/images/profile-icon.png" alt="commenter" />
+                <p class="comments_body--commenter"><b>@commenter</b></p>
+                <p>time of comment</p>
               </div>
-              <div>
-                <button class="see_reply_button">
-                  <img src="assets/images/video-buttons/down.svg" alt="down" />
-                  15 replies
-                </button>
+              <div class="comment">
+                <p>This is the comment made.</p>
+              </div>
+
+              <div class="comment_actions_wrapper">
+                <div class="comment_actions">
+                  <button class="comment_button like_comment">
+                    <img src="assets/images/video-buttons/like.svg" />
+                  </button>
+                  <p>Likes count</p>
+                  <button class="comment_button dislike_comment">
+                    <img src="assets/images/video-buttons/dislike.svg" />
+                  </button>
+                  <button class="comment_button reply_comment">
+                    <b>Reply</b>
+                  </button>
+                </div>
+                <div>
+                  <button class="see_reply_button">
+                    <img
+                      src="assets/images/video-buttons/down.svg"
+                      alt="down"
+                    />
+                    15 replies
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <div class="comments_body--comment">
-              <img src="assets/images/profile-icon.png" alt="commenter" />
-              <p class="comments_body--commenter"><b>@commenter</b></p>
-              <p>time of comment</p>
-            </div>
-            <div class="comment">
-              <p>This is the comment made.</p>
-            </div>
-
-            <div class="comment_actions_wrapper">
-              <div class="comment_actions">
-                <button class="comment_button like_comment">
-                  <img src="assets/images/video-buttons/like.svg" />
-                </button>
-                <p>Likes count</p>
-                <button class="comment_button dislike_comment">
-                  <img src="assets/images/video-buttons/dislike.svg" />
-                </button>
-                <button class="comment_button reply_comment">
-                  <b>Reply</b>
-                </button>
+            <div>
+              <div class="comments_body--comment">
+                <img src="assets/images/profile-icon.png" alt="commenter" />
+                <p class="comments_body--commenter"><b>@commenter</b></p>
+                <p>time of comment</p>
               </div>
-              <div>
-                <button class="see_reply_button">
-                  <img src="assets/images/video-buttons/down.svg" alt="down" />
-                  15 replies
-                </button>
+              <div class="comment">
+                <p>This is the comment made.</p>
+              </div>
+
+              <div class="comment_actions_wrapper">
+                <div class="comment_actions">
+                  <button class="comment_button like_comment">
+                    <img src="assets/images/video-buttons/like.svg" />
+                  </button>
+                  <p>Likes count</p>
+                  <button class="comment_button dislike_comment">
+                    <img src="assets/images/video-buttons/dislike.svg" />
+                  </button>
+                  <button class="comment_button reply_comment">
+                    <b>Reply</b>
+                  </button>
+                </div>
+                <div>
+                  <button class="see_reply_button">
+                    <img
+                      src="assets/images/video-buttons/down.svg"
+                      alt="down"
+                    />
+                    15 replies
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="comments_body--comment">
+                <img src="assets/images/profile-icon.png" alt="commenter" />
+                <p class="comments_body--commenter"><b>@commenter</b></p>
+                <p>time of comment</p>
+              </div>
+              <div class="comment">
+                <p>This is the comment made.</p>
+              </div>
+
+              <div class="comment_actions_wrapper">
+                <div class="comment_actions">
+                  <button class="comment_button like_comment">
+                    <img src="assets/images/video-buttons/like.svg" />
+                  </button>
+                  <p>Likes count</p>
+                  <button class="comment_button dislike_comment">
+                    <img src="assets/images/video-buttons/dislike.svg" />
+                  </button>
+                  <button class="comment_button reply_comment">
+                    <b>Reply</b>
+                  </button>
+                </div>
+                <div>
+                  <button class="see_reply_button">
+                    <img
+                      src="assets/images/video-buttons/down.svg"
+                      alt="down"
+                    />
+                    15 replies
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="comments_body--comment">
+                <img src="assets/images/profile-icon.png" alt="commenter" />
+                <p class="comments_body--commenter"><b>@commenter</b></p>
+                <p>time of comment</p>
+              </div>
+              <div class="comment">
+                <p>This is the comment made.</p>
+              </div>
+
+              <div class="comment_actions_wrapper">
+                <div class="comment_actions">
+                  <button class="comment_button like_comment">
+                    <img src="assets/images/video-buttons/like.svg" />
+                  </button>
+                  <p>Likes count</p>
+                  <button class="comment_button dislike_comment">
+                    <img src="assets/images/video-buttons/dislike.svg" />
+                  </button>
+                  <button class="comment_button reply_comment">
+                    <b>Reply</b>
+                  </button>
+                </div>
+                <div>
+                  <button class="see_reply_button">
+                    <img
+                      src="assets/images/video-buttons/down.svg"
+                      alt="down"
+                    />
+                    15 replies
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="comments_body--comment">
+                <img src="assets/images/profile-icon.png" alt="commenter" />
+                <p class="comments_body--commenter"><b>@commenter</b></p>
+                <p>time of comment</p>
+              </div>
+              <div class="comment">
+                <p>This is the comment made.</p>
+              </div>
+
+              <div class="comment_actions_wrapper">
+                <div class="comment_actions">
+                  <button class="comment_button like_comment">
+                    <img src="assets/images/video-buttons/like.svg" />
+                  </button>
+                  <p>Likes count</p>
+                  <button class="comment_button dislike_comment">
+                    <img src="assets/images/video-buttons/dislike.svg" />
+                  </button>
+                  <button class="comment_button reply_comment">
+                    <b>Reply</b>
+                  </button>
+                </div>
+                <div>
+                  <button class="see_reply_button">
+                    <img
+                      src="assets/images/video-buttons/down.svg"
+                      alt="down"
+                    />
+                    15 replies
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <aside class="recommendations">
-      <a href="#">
-        <div class="recommendation_card">
-          <div class="recommendation_image">
-            <img src="assets/images/ve-recommendation.jpeg" alt="recommendation" />
+      <aside class="recommendations">
+        <a href="#">
+          <div class="recommendation_card">
+            <div class="recommendation_image">
+              <img
+                src="assets/images/ve-recommendation.jpeg"
+                alt="recommendation"
+              />
+            </div>
+            <div class="recommendation_text">
+              <p>This is a recommendation</p>
+              <p>Channel Name</p>
+              <p>Views and Date</p>
+            </div>
           </div>
-          <div class="recommendation_text">
-            <p>This is a recommendation</p>
-            <p>Channel Name</p>
-            <p>Views and Date</p>
+        </a>
+        <a href="#">
+          <div class="recommendation_card">
+            <div class="recommendation_image">
+              <img
+                src="assets/images/ve-recommendation.jpeg"
+                alt="recommendation"
+              />
+            </div>
+            <div class="recommendation_text">
+              <p>This is a recommendation</p>
+              <p>Channel Name</p>
+              <p>Views and Date</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="#">
-        <div class="recommendation_card">
-          <div class="recommendation_image">
-            <img src="assets/images/ve-recommendation.jpeg" alt="recommendation" />
+        </a>
+        <a href="#">
+          <div class="recommendation_card">
+            <div class="recommendation_image">
+              <img
+                src="assets/images/ve-recommendation.jpeg"
+                alt="recommendation"
+              />
+            </div>
+            <div class="recommendation_text">
+              <p>This is a recommendation</p>
+              <p>Channel Name</p>
+              <p>Views and Date</p>
+            </div>
           </div>
-          <div class="recommendation_text">
-            <p>This is a recommendation</p>
-            <p>Channel Name</p>
-            <p>Views and Date</p>
+        </a>
+        <a href="#">
+          <div class="recommendation_card">
+            <div class="recommendation_image">
+              <img
+                src="assets/images/ve-recommendation.jpeg"
+                alt="recommendation"
+              />
+            </div>
+            <div class="recommendation_text">
+              <p>This is a recommendation</p>
+              <p>Channel Name</p>
+              <p>Views and Date</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="#">
-        <div class="recommendation_card">
-          <div class="recommendation_image">
-            <img src="assets/images/ve-recommendation.jpeg" alt="recommendation" />
+        </a>
+        <a href="#">
+          <div class="recommendation_card">
+            <div class="recommendation_image">
+              <img
+                src="assets/images/ve-recommendation.jpeg"
+                alt="recommendation"
+              />
+            </div>
+            <div class="recommendation_text">
+              <p>This is a recommendation</p>
+              <p>Channel Name</p>
+              <p>Views and Date</p>
+            </div>
           </div>
-          <div class="recommendation_text">
-            <p>This is a recommendation</p>
-            <p>Channel Name</p>
-            <p>Views and Date</p>
+        </a>
+        <a href="#">
+          <div class="recommendation_card">
+            <div class="recommendation_image">
+              <img
+                src="assets/images/ve-recommendation.jpeg"
+                alt="recommendation"
+              />
+            </div>
+            <div class="recommendation_text">
+              <p>This is a recommendation</p>
+              <p>Channel Name</p>
+              <p>Views and Date</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="#">
-        <div class="recommendation_card">
-          <div class="recommendation_image">
-            <img src="assets/images/ve-recommendation.jpeg" alt="recommendation" />
+        </a>
+        <a href="#">
+          <div class="recommendation_card">
+            <div class="recommendation_image">
+              <img
+                src="assets/images/ve-recommendation.jpeg"
+                alt="recommendation"
+              />
+            </div>
+            <div class="recommendation_text">
+              <p>This is a recommendation</p>
+              <p>Channel Name</p>
+              <p>Views and Date</p>
+            </div>
           </div>
-          <div class="recommendation_text">
-            <p>This is a recommendation</p>
-            <p>Channel Name</p>
-            <p>Views and Date</p>
-          </div>
-        </div>
-      </a>
-      <a href="#">
-        <div class="recommendation_card">
-          <div class="recommendation_image">
-            <img src="assets/images/ve-recommendation.jpeg" alt="recommendation" />
-          </div>
-          <div class="recommendation_text">
-            <p>This is a recommendation</p>
-            <p>Channel Name</p>
-            <p>Views and Date</p>
-          </div>
-        </div>
-      </a>
-      <a href="#">
-        <div class="recommendation_card">
-          <div class="recommendation_image">
-            <img src="assets/images/ve-recommendation.jpeg" alt="recommendation" />
-          </div>
-          <div class="recommendation_text">
-            <p>This is a recommendation</p>
-            <p>Channel Name</p>
-            <p>Views and Date</p>
-          </div>
-        </div>
-      </a>
-      <a href="#">
-        <div class="recommendation_card">
-          <div class="recommendation_image">
-            <img src="assets/images/ve-recommendation.jpeg" alt="recommendation" />
-          </div>
-          <div class="recommendation_text">
-            <p>This is a recommendation</p>
-            <p>Channel Name</p>
-            <p>Views and Date</p>
-          </div>
-        </div>
-      </a>
-    </aside>
-  </section>
+        </a>
+      </aside>
+    </section>
 
-  <script src="js/main.js" async defer></script>
-</body>
-
+    <script src="js/main.js" async defer></script>
+  </body>
 </html>
