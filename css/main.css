@@ -110,8 +110,55 @@ input::-webkit-calendar-picker-indicator {
     margin-left: 300px;
 }
 
-.youtube_create_btn:hover {
+    .youtube_create_btn:hover, .youtube_create_btn:focus:active {
     background-color: aquamarine;
+}
+
+.create_modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+
+.create_modal_content{
+    background-color: rgb(247, 242, 242);
+    border: 1px solid #e9e5e5;
+    border-radius: 10px;
+
+}
+
+.create_modal_content li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.create_modal_content ul{
+    padding: 0px 20px 0px 15px;
+}
+
+.notifications_modal{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 1650px;
+}
+
+.notifications_modal_content{
+    background-color: rgb(247, 242, 242);
+    border: 1px solid #e9e5e5;
+    border-radius: 10px;
+
+}
+
+.notifications_modal_content li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.notifications_modal_content ul{
+    padding: 0px 20px 0px 15px;
 }
 
 .youtube_notifications_icon {

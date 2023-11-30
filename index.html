@@ -14,7 +14,7 @@
     />
   </head>
 
-  <body>
+  <body id="body">
     <header id="header" class="navbar">
       <div class="header_element">
         <button class="hamburger_btn">
@@ -66,23 +66,50 @@
       </div>
 
       <div class="header_element youtube_create">
-        <button class="youtube_create_btn" title="Create">
+        <button id="youtube_create_btn" type="button" class="youtube_create_btn" title="Create">
           <img
             src="assets/images/youtube-create.png"
             alt="create"
             class="youtube_create_icon"
           />
         </button>
+
+        <div id="create_modal" class="create_modal">
+
+          <div id="create_modal_content" class="create_modal_content">
+            <ul>
+              <li>Upload Video</li>
+              <li>Go Live</li>
+              <li>Create Post</li>
+            </ul>
+          </div>
+
+        </div>
+
       </div>
 
-      <div class="header_element youtube_notifications" title="Notifications">
-        <button class="youtube_notifications_btn">
+      <div class="header_element youtube_notifications">
+        <button class="youtube_notifications_btn" id="youtube_notifications_btn" title="Notifications">
           <img
             src="assets/images/youtube-bell.png"
             alt="notification"
             class="youtube_notifications_icon"
           />
         </button>
+
+        <div id="notifications_modal" class="notifications_modal">
+
+          <div id="notifications_modal_content" class="notifications_modal_content">
+            <ul>
+              <li>This is the first notification.</li>
+              <li>This is the second notification.</li>
+              <li>This is the third notification.</li>
+              <li>This is the fourth notification.</li>
+            </ul>
+          </div>
+
+        </div>
+
       </div>
 
       <div class="header_element youtube_profile">
@@ -611,6 +638,6 @@
       </aside>
     </section>
 
-    <script src="js/main.js" async defer></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
