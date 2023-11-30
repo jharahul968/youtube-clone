@@ -37,21 +37,22 @@ notif_btn.onclick = function () {
 //     }
 // }
 
+function likeVideo() {
+    if (!localStorage.likes_count) {
+        localStorage.setItem('likes_count', '0');
+    }
 
-
-if (!localStorage.likes_count) {
-    localStorage.setItem('likes_count', '0');
-}
-
-likes_count = Number(localStorage.getItem('likes_count'));
-like_btn = document.getElementById('like_btn')
-like_btn.onclick = function () {
+    likes_count = Number(localStorage.getItem('likes_count'));
     likes_count += 1;
     localStorage.setItem('likes_count', likes_count);
-    location.reload(true);
+    document.getElementById('likes_count').innerHTML = likes_count;
 }
 
-function putTexts() {
+function putTexts(){
+    if (!localStorage.likes_count) {
+        localStorage.setItem('likes_count', '0');
+    }
+    likes_count = Number(localStorage.getItem('likes_count'));
     document.getElementById('likes_count').innerHTML = likes_count;
 }
 
@@ -61,11 +62,11 @@ function putTexts() {
 function postComment() {
     input = document.getElementById("comment_input");
     comment = input.value;
-    if (comment.trim()!==''){
-    document.getElementById("comment_input").value = '';
-    comments_body = document.getElementById("comments_body");
-    new_comment = document.createElement("div");
-    new_comment.innerHTML = `
+    if (comment.trim() !== '') {
+        document.getElementById("comment_input").value = '';
+        comments_body = document.getElementById("comments_body");
+        new_comment = document.createElement("div");
+        new_comment.innerHTML = `
 <div class="comments_body--comment">
 <img src="assets/images/profile-icon.png" alt="commenter" />
 <p class="comments_body--commenter"><b>@commenter</b></p>
@@ -100,7 +101,6 @@ function postComment() {
 </div>
 `
 
-comments_body.prepend(new_comment);
-console.log(comments_body);
+        comments_body.prepend(new_comment);
     }
 }
