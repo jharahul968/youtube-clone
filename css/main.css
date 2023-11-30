@@ -126,35 +126,51 @@ input::-webkit-calendar-picker-indicator {
     background-color: rgb(247, 242, 242);
     border: 1px solid #e9e5e5;
     border-radius: 10px;
+    width: 200px;
+    height: 130px;
+    font-size: larger;
 
 }
 
 .create_modal_content li{
     list-style-type: none;
     margin-bottom: 10px;
+    cursor: pointer;
+
 }
 
 .create_modal_content ul{
     padding: 0px 20px 0px 15px;
 }
 
+.create_modal_content li:hover{
+    background-color: aquamarine;
+}
+
 .notifications_modal{
     display: none;
     position: absolute;
     z-index: 1;
-    left: 1650px;
+    left: 1550px;
+    
 }
 
 .notifications_modal_content{
     background-color: rgb(247, 242, 242);
     border: 1px solid #e9e5e5;
     border-radius: 10px;
-
+    width: 350px;
+    height: 150px;
+    font-size: larger;
 }
 
 .notifications_modal_content li{
     list-style-type: none;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+.notifications_modal_content li:hover{
+    background-color: aquamarine;
 }
 
 .notifications_modal_content ul{
