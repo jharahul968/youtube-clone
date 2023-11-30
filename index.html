@@ -14,7 +14,7 @@
     />
   </head>
 
-  <body id="body">
+  <body onload="putTexts()">
     <header id="header" class="navbar">
       <div class="header_element">
         <button class="hamburger_btn">
@@ -66,7 +66,12 @@
       </div>
 
       <div class="header_element youtube_create">
-        <button id="youtube_create_btn" type="button" class="youtube_create_btn" title="Create">
+        <button
+          id="youtube_create_btn"
+          type="button"
+          class="youtube_create_btn"
+          title="Create"
+        >
           <img
             src="assets/images/youtube-create.png"
             alt="create"
@@ -75,7 +80,6 @@
         </button>
 
         <div id="create_modal" class="create_modal">
-
           <div id="create_modal_content" class="create_modal_content">
             <ul>
               <li>Upload Video</li>
@@ -83,13 +87,15 @@
               <li>Create Post</li>
             </ul>
           </div>
-
         </div>
-
       </div>
 
       <div class="header_element youtube_notifications">
-        <button class="youtube_notifications_btn" id="youtube_notifications_btn" title="Notifications">
+        <button
+          class="youtube_notifications_btn"
+          id="youtube_notifications_btn"
+          title="Notifications"
+        >
           <img
             src="assets/images/youtube-bell.png"
             alt="notification"
@@ -98,8 +104,10 @@
         </button>
 
         <div id="notifications_modal" class="notifications_modal">
-
-          <div id="notifications_modal_content" class="notifications_modal_content">
+          <div
+            id="notifications_modal_content"
+            class="notifications_modal_content"
+          >
             <ul>
               <li>This is the first notification.</li>
               <li>This is the second notification.</li>
@@ -107,9 +115,7 @@
               <li>This is the fourth notification.</li>
             </ul>
           </div>
-
         </div>
-
       </div>
 
       <div class="header_element youtube_profile">
@@ -161,12 +167,12 @@
               <button class="btn subscribe_btn">Subscribe</button>
               <div class="video_buttons">
                 <div>
-                  <button class="video_button like_btn" title="I like this">
+                  <button class="video_button like_btn" id="like_btn" title="I like this">
                     <img
                       src="assets/images/video-buttons/like.svg"
                       alt="like"
                     />
-                    <span>34K</span>
+                    <span id="likes_count"></span>
                   </button>
                   <button
                     class="video_button dislike_btn"
