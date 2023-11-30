@@ -132,10 +132,23 @@
     <section class="video_body">
       <div class="video_container">
         <div class="video_player">
+
+          <!-- this video is not playing -->
+
           <!-- <iframe width="1200" height="700" src="https://www.youtube.com/embed/PK35ulIX5P4" title="Jacob and the Stone"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe> -->
+
+
+          <!-- the another video is playing, using for test purposes -->
+
+          <!-- <iframe
+          width="1200" height="700"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          >
+          </iframe> -->
+
         </div>
 
         <div class="video_actions">
@@ -167,7 +180,11 @@
               <button class="btn subscribe_btn">Subscribe</button>
               <div class="video_buttons">
                 <div>
-                  <button class="video_button like_btn" id="like_btn" title="I like this">
+                  <button
+                    class="video_button like_btn"
+                    id="like_btn"
+                    title="I like this"
+                  >
                     <img
                       src="assets/images/video-buttons/like.svg"
                       alt="like"
@@ -272,7 +289,7 @@
           <div class="make_comment">
             <img src="assets/images/profile-icon.png" alt="profile" />
             <div class="make_comment--actions">
-              <input placeholder="Add a comment..." />
+              <input type="text" placeholder="Add a comment..." id="comment_input" />
               <div class="make_comment--actions_button">
                 <button class="make_comment_action_emoji">
                   <img
@@ -280,13 +297,13 @@
                     alt="emoji"
                   />
                 </button>
-                <button class="make_comment_action_btn">Comment</button>
+                <button class="make_comment_action_btn" id="make_comment_button" onclick="postComment()">Comment</button>
                 <button class="make_comment_action_btn">Cancel</button>
               </div>
             </div>
           </div>
 
-          <div class="comments_body">
+          <div class="comments_body" id="comments_body">
             <div>
               <div class="comments_body--comment">
                 <img src="assets/images/profile-icon.png" alt="commenter" />
