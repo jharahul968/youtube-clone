@@ -104,3 +104,40 @@ function postComment() {
         comments_body.prepend(new_comment);
     }
 }
+
+function expandDesc(){
+  var descriptionBox = document.getElementById('video_description');
+  var expandButton = document.getElementById('expandButton');
+  var closeButton=document.getElementById('showLessButton');
+
+  if (descriptionBox.style.maxHeight === '60px') {
+    // Expand the box
+    descriptionBox.style.maxHeight = 'none';
+    expandButton.style.display = 'none'; 
+    // descriptionBox.style.cursor='default';
+    closeButton.style.display='block';
+  
+  } 
+  else{
+    descriptionBox.style.maxHeight = '60px';
+    expandButton.style.display = 'inline-block'; 
+    // descriptionBox.style.cursor='pointer';
+    closeButton.style.display='none';
+
+  }
+}
+
+// function closeDesc(){
+//   var descriptionBox = document.getElementById('video_description');
+//   var expandButton = document.getElementById('expandButton');
+//   var closeButton=document.getElementById('showLessButton');
+
+//   // if (descriptionBox.style.maxHeight !== '60px') {
+
+//     descriptionBox.style.maxHeight = '60px';
+//     expandButton.style.display = 'inline-block'; 
+//     descriptionBox.style.cursor='pointer';
+//     closeButton.style.display='none';
+
+//   // }
+// }
